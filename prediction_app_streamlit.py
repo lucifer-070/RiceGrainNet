@@ -33,7 +33,7 @@ st.markdown("""
 def load_model():
     """Load the trained TensorFlow model"""
     try:
-        path = '/home/kali/college/secondyear/thirdSem/newProject/rice_classifier_model2.keras'
+        path = '/RiceGrainNet/rice_classifier_model2.keras'
         model = tf.keras.models.load_model(path)
         return model
     except Exception as e:
